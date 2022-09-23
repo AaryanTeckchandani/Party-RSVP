@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,17 +9,24 @@
 </head>
 
 <body>
- <center>
-    <h1>Party RSVP</h1>
-   <div> 
-       <input id="nameOfPerson1" type="text" placeholder="Name">
-       </div>
-     <div>
-     <button id="submit" type="submit" onclick="submit()">Submit</button>
-         <br>
-        <div id="result"></div>
-     </div>
-    </center>   
+    <center>
+        <h1>Party RSVP</h1>
+        <div>
+            <input id="nameOfPerson1" type="text" placeholder="Name">
+        </div>
+        <span>
+            <button id="submit" type="submit" onclick="submit()">Submit</button>
+            <button id="sort" type="submit" onclick="sort()">Sort</button>
+            <div id="displayNameWithCommas"></div>
+
+            <hr>
+
+            <span id="displayNameWithoutCommas"></span>
+            <br>
+            <span id="result"></span>
+        </span>
+
+    </center>
 </body>
+
 </html>
- 
