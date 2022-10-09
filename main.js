@@ -4,8 +4,8 @@ function submit() {
     console.log('in submit');
     var name1 = document.getElementById("nameOfPerson1").value;
     studentArray.push(name1);
-
-
+    document.getElementById("result").innerHTML = studentArray;
+    
 }
 
 function sort() {
